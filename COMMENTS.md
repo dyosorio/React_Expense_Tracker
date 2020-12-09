@@ -1,4 +1,5 @@
 ## Development Process:
+demo: https://blissful-hopper-87aa77.netlify.app/
 
 1. ### create react app:
 npx create-react-app
@@ -85,4 +86,4 @@ reducer is a way to change the state and send it down to the component. We can't
        const { addTransaction } = useContext(GlobalContext)
        on the form add an onSubmit event with an onSubmit function
        inside the onSubmit function, build a newTransaction object and return the action with the new object addTransaction(newTransaction)
-  
+   
